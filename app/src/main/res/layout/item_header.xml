@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/header_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_header_topic"/>
+
+    <TextView
+        android:id="@+id/header_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/header_icon"
+        android:text="话题"
+        android:textColor="#044"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/header_look"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/shape_look_bg"
+        android:gravity="center"
+        android:text="进去看看"/>
+</RelativeLayout>
